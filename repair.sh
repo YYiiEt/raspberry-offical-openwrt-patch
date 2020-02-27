@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wget https://raw.githubusercontent.com/YYiiEt/raspberry-offical-openwrt-patch/master/model.tar
+wget https://raw.githubusercontent.com/YYiiEt/raspberry-offical-openwrt-patch/master/model.tar.gz
 tar -zxvf model.tar.gz
 if [ -d "model/" ];then
   cd model
