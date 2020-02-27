@@ -9,5 +9,6 @@ if [ -d "model/" ];then
 	rm -f /www/luci-static/resources/view/status/include/10_system.js && cp 10_system.js /www/luci-static/resources/view/status/include/
 	/etc/init.d/rpcd restart
 	cd .. && rm -rf model model.tar.gz repair.sh
-	echo "ok"
+	echo "********************************"
+	echo "ok,enjoy!"
 fi
