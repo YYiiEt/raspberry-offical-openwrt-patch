@@ -2,7 +2,7 @@
 
 wget https://raw.githubusercontent.com/YYiiEt/raspberry-offical-openwrt-patch/master/model.tar
 tar -xvf model.tar
-if [ -d "/model/" ];then
+if [ -d "model/" ];then
   cd model
   rm -f /usr/libexec/rpcd/luci && cp luci /usr/libexec/rpcd/
   rm -f /usr/share/rpcd/acl.d/luci-base.json && cp luci-base.json /usr/share/rpcd/acl.d/
