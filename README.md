@@ -1,5 +1,5 @@
 # 一行代码（雾）修复树莓官方openwrt CPU Info显示为？:  
-wget http://suo.im/65CDO1 && chmod +x repair.sh && ./repair.sh
+wget -O repair.sh http://suo.im/6jUvRF && chmod +x repair.sh && ./repair.sh
 
 - 本项目基于**官方openwrt**，如果你目前是**lean的源码**请不要使用
 - 使用前请确认网络状况，确保能够访问github
